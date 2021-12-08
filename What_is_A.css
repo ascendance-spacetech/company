@@ -343,7 +343,7 @@
          background: #001f53;
          font-family: 'Montserrat';
          font-size: medium;
-         /* min-width: 1250px;*/
+         min-width: 1260px;
      }
      
      .mobileview {
@@ -384,12 +384,12 @@
      
      .line-area {
          display: block;
-         width: 70%;
+         width: 90%;
          height: 1px;
          background: #ddd;
          position: absolute;
          top: 50%;
-         left: 20%;
+         left: 5%;
      }
      
      .wrapper .timeline-area {
@@ -398,11 +398,11 @@
      
      .single-item {
          width: 6%;
-         white-space: nowrap;
+         /*white-space: nowrap;*/
          display: inline-block;
          position: relative;
          height: 100%;
-         margin-right: 10%;
+         margin-right: 5%;
          margin-top: 1.5%;
          transition: width .3s;
          z-index: 1;
@@ -410,7 +410,7 @@
      
      .line1 {
          width: 6%;
-         white-space: nowrap;
+         /*white-space: nowrap;*/
          display: inline-block;
          position: relative;
          height: 100%;
@@ -420,7 +420,7 @@
      
      .line2 {
          width: 6%;
-         white-space: nowrap;
+         /*white-space: nowrap;*/
          display: inline-block;
          position: relative;
          height: 100%;
@@ -431,6 +431,7 @@
      .single-item>span {
          display: block;
          position: absolute;
+         white-space: normal;
          top: 50%;
          margin-top: -36%;
          margin-left: -225%;
@@ -443,7 +444,7 @@
          width: 1px;
          height: 2000%;
          background: #ddd;
-         margin-right: 20%;
+         margin-right: 10%;
          margin-top: -580%;
          margin-left: -440%;
      }
@@ -461,20 +462,21 @@
      
      .single-item2 {
          width: 6%;
-         white-space: nowrap;
+         /*white-space: nowrap;*/
+         
          display: inline-block;
          position: relative;
          height: 100%;
-         margin-right: 10%;
+         margin-right: 5%;
          transition: width .3s;
          z-index: 1;
      }
      
      .single-item2>span {
          position: absolute;
-         margin-top: -106%;
-         margin-left: -225%;
-         width: 400%;
+         margin-top: -125%;
+         margin-left: -180%;
+         width: 280%;
      }
      
      .line2::after {
@@ -484,8 +486,8 @@
          height: 2000%;
          background: #ddd;
          margin-right: 40%;
-         margin-top: -1550%;
-         margin-left: -440%;
+         margin-top: -1350%;
+         margin-left: -660%;
      }
      
      .single-item2>span:after {
@@ -556,7 +558,7 @@
          /*#143162*/
          opacity: 1;
          position: absolute;
-         top: 20000%;
+         top: 20600%;
          left: -23%;
          transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
          transition: 150ms transform;
@@ -586,10 +588,11 @@
          content: '';
          border: var(--arrow-size) solid transparent;
          top: 50px;
-         left: -15px;
+         left: -30px;
          border-bottom-color: var(--tooltip-color);
          transform-origin: bottom center;
      }
+  
      
      @media (max-width: 1000px) {
          .wrapper {
